@@ -1,0 +1,30 @@
+.latitude_vs_x {
+  height: 100%;
+  padding: 4rem 2rem;
+  color: #212529;
+  background: #e9ecef;
+}
+
+
+
+/* Comparison page */
+* {
+  box-sizing: border-box;
+}
+
+.comparison_img{
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.display-4{
+	font-size:30px;
+}
