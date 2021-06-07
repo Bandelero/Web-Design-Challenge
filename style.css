@@ -5,6 +5,60 @@
   background: #e9ecef;
 }
 
+.display-4{
+	font-size:30px;
+}
+
+.display-3{
+	font-size:25px;
+	text-align: center;
+}
+
+.dataframe{
+	margin-left:  auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+
+/*index page*/
+
+.post {
+  margin-top: 50px;
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
+
+.index_img{
+	float:  left;
+}
+
+
+/*Visualization Page*/
+.temp_plot{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.humidity_plot{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cloudiness_plot{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wind_plot{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 
 /* Comparison page */
@@ -14,8 +68,14 @@
 
 .comparison_img{
   float: left;
-  width: 100%;
-  padding: 10px;
+  width: 95%;
+  padding: 5px;
+}
+
+.column{
+  float: left;
+  width: 45%;
+  padding: 5px;
 }
 
 /* Clearfix (clear floats) */
@@ -25,6 +85,3 @@
   display: table;
 }
 
-.display-4{
-	font-size:30px;
-}
